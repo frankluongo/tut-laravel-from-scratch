@@ -79,7 +79,17 @@ Route::get('/contact', function () {
 Create a new view in the `resources/views` folder called `contact.blade.php`
 
 
-## Episode 04:
+## Episode 04: Blade Layout Files
+- You can use `.` or `/` to denote folders
+
+Layouts are created and extended to views
+```php
+@extends('layouts.default')
+```
+
+In a layout, you place a `@yield` for content
+
+In a template, you place content inside a `@section`
 
 
 ## Episode 05:

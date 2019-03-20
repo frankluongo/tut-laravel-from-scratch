@@ -1,7 +1,7 @@
 @extends('layouts.default')
 
-@section('title', 'Contact Us')
+@section('title', 'About Us')
 
 @section('content')
-  <h1>Contact Me</h1>
+  <h1>About Me</h1>
 @endsection
