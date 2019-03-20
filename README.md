@@ -92,8 +92,12 @@ In a layout, you place a `@yield` for content
 In a template, you place content inside a `@section`
 
 
-## Episode 05:
-
+## Episode 05: Sending Data To Your Views
+- To get something from the query string, use `request('thing')`
+- Laravel automatically escapes data for you
+  - Data is usually escaped in the `{{ }}` syntax
+  - To unescape data, use {!! !!}
+- There are multiple, valid ways to pass data to views
 
 ## Episode 06:
 

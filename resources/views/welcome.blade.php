@@ -33,5 +33,13 @@
             <a href="https://github.com/laravel/laravel">GitHub</a>
         </div>
     </div>
+
+    <div class="content">
+      <ul>
+        @foreach($tasks as $task) :
+            <li>{{ $task }}</li>
+        @endforeach
+      </ul>
+    </div>
 </div>
 @endsection
