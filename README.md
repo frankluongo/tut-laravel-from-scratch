@@ -99,7 +99,11 @@ In a template, you place content inside a `@section`
   - To unescape data, use {!! !!}
 - There are multiple, valid ways to pass data to views
 
-## Episode 06:
+## Episode 06: Controllers 101
+- Laravel has built-in commands for creating things like controllers
+```bash
+php artisan make:controller PagesController
+```
 
 
 ## Episode 07:
